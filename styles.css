@@ -1,0 +1,180 @@
+/* basic */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* main CSS */
+main{
+    text-align: center;
+    width: 98vw;
+    height: 95vh;
+}
+
+section{
+    background: #0a0d3d;
+}
+
+.game-display{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.game-box{
+    width: 25vw;
+    height: 25vh;
+    margin: 4vmin auto;
+}
+
+.game-box a{
+    text-decoration: none;
+    color: white;
+}
+.game-box img{
+    height: 20vmin;
+    border-radius: 3vmin;
+}
+.game-box p{
+    font-size: 20px;
+}
+
+
+body{
+    background: #202576;
+    color: white;
+}
+h1{
+    font-size: 8vmin;
+    margin: 3vmin 0 ;
+}
+
+h3{
+    font-size: 5vmin;
+    margin: 3vmin 0 ;
+}
+
+/* display player turn on screen */
+.turn-count{
+    display: inline;
+    justify-content: center;
+    font-size: 3vmin;
+    background: #0a0d3d;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+    padding: 2vmin;
+}
+
+/* Game board */
+.container{
+    height: 65vmin;
+    display: flex;
+    justify-content: center;
+}
+.rows{
+    display: flex;
+    gap: 1rem;
+}
+.game{
+    height: 58vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    width: 30vw;
+    flex-wrap: wrap;
+    margin-top: 3vmin;
+}
+
+
+.box{
+   height: 17vmin;
+   width: 17vmin;
+   border-radius: 1rem;
+   border: none;
+   box-shadow: 0 0 1rem rgb(0, 0, 0, 1);
+   background: white;
+   color: #80187a;
+   font-size: 12vmin;
+}
+.box:hover{
+    background: rgb(200, 196, 196);
+}
+
+
+/*Top meesage appare on screen aftar game finish */
+#msg{
+    font-size: 4vw;
+    margin: 10vmin;
+}
+.top-msg-container{
+    margin: 0 auto;
+    width: 98vw;
+    height: 100vh;
+    background: #202576;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.msg-container{
+  background-color: #0a0d3d;
+  height: 60vh;
+  width: 50vw;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem rgb(0, 0, 0, 1);
+
+
+}
+
+.hide{
+    display: none;
+}
+
+/* New Button */
+#new-game-btn {
+    height: 6vw;
+    background: #80187a;
+    border-radius: 3vmin;
+    padding: 1vw;
+    border: none;
+    color: white;
+    font-size: 2vw;
+}
+#new-game-btn:hover {
+    background: #5d1159;
+    font-size: 4.5vmin;
+}
+
+/* Reset Button */
+#reset-game-btn {
+    height: 8vmin;
+    background: #80187a;
+    border-radius: 2vmin;
+    padding: 2vmin;
+    border: none;
+    color: white;
+    font-size: 3vmin;
+    margin-top: 3vmin;
+    margin-bottom: 5px;
+}
+#reset-game-btn:hover {
+    background: #5d1159;
+    font-size: 3.5vmin;
+}
+
+
+/* function that call in JavaScript */
+.black{
+    color: black;
+}
+.red{
+    color: red;
+}
+
+
+
+

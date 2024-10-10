@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tic Tac Tok Game</title>
+  </head>
+  <body>
+    <!-- main body -->
+    <main>
+      <!-- Message Which show aftar Game finished -->
+      <div class="top-msg-container hide">
+        <div class="msg-container">
+          <p id="msg" name="msg"></p>
+          <button id="new-game-btn" name="new-game-btn">New Game</button>
+        </div>
+      </div>
+      <!-- Heading -->
+      <h1 id="heading">Tic Tac Toc Game</h1>
+
+      <!-- Player Turn Display -->
+      <div class="turn-count"></div>
+
+      <!-- Game Board -->
+      <div class="container">
+        <div class="game">
+          <div class="rows">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+          <div class="rows">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+          <div class="rows">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
+        </div>
+      </div>
+      <button id="reset-game-btn">Reset Game</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
